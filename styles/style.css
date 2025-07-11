@@ -20,6 +20,12 @@ font-weight: 700;
     width: 132px;
     color: #FFFFFF;
 }
+.black{
+    color: #252432;
+}
+.blue{
+    color: #4E47FF;
+}
 /* header styles */
 /* navigation styles */
 header{
@@ -30,7 +36,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 90vw;
+    width: 89vw;
 }
 .navbar nav h3{
     font-weight: 900;
@@ -43,13 +49,12 @@ header{
 /* banner styles */
 .banner{
     text-align: center;
-    height: 273px;
-    width: 905px;
+    height: 33%;
+    width: 77vw;
     margin: 150px auto;
     padding-bottom: 150px;
 }
 .banner-heading {
-    color:#252432;
     font-weight: 700;
     font-size: 65px;
 }
@@ -57,4 +62,32 @@ header{
     width: 174px;
     align-items: center;
 }
+       /* main styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 89vw;
+    gap: auto;
+}
+.left{
+    width: 45%;
+}
+.title{
+    font-weight: 700;
+    font-size: 42px;
+}
+.subtitle{
+    color: #2524324e;
+    font-weight: 400;
+    font-size: 24px;
+}
 
+.action button{
+    width: 229px;
+}
+.image img{
+     border: none;
+     border-radius: 48px;
+}
+ 
