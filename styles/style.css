@@ -63,6 +63,9 @@ header{
     align-items: center;
 }
  /* main styles */
+ main{
+    background-color: #4d47ff0a;
+ }
  /* action styles */
 .action{
     display: flex;
@@ -126,6 +129,10 @@ data-with-subtitle{
     padding-bottom: 50px;
 }
 /* users feedback section */
+.users-feedback{
+    width: 89vw;
+    margin: 0 auto;
+}
 .card{
     display: flex;
     justify-content: space-around;   
@@ -168,3 +175,73 @@ height: 70%;
 .user-des p{
     color: #2524324e;
 }
+.focus{
+    margin: 0 auto;
+    width: 89vw;
+    background-color:#ffffff87;
+    text-align: center;
+    border: 1px;
+    border-radius: 48px;
+}
+.focus-image img{
+    border-radius: 48px;
+    width: 74%;
+}
+.focus-des h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.focus-des h6{
+    font-weight: 400;
+    font-size: 16px;
+    color:#2524324e;
+}
+.focus-des button{
+    width: 193px;
+}
+/* form section */
+.contact{
+    display: flex;
+    margin: 0 auto;
+    width: 89vw;
+    justify-content: space-between;
+    padding: auto;
+    border-radius: 48px;
+    align-items: center;
+}
+.text{
+     width: 50%;
+}
+.text h2{
+    font-weight: 700;
+    font-size: 97px; 
+}
+.form h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.form{
+    width: 30%;
+    border:none;
+}
+.form input{
+    height: 40px;
+    background-color:#ffffff87 ;
+    border: 1px solid #25243211;
+    border-radius: 10px;
+     padding-left: 10px;
+}
+.form textarea{
+    height: 135px;
+    background-color: #ffffff87;
+    border: 1px solid #25243211;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.form button{
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+}
+
