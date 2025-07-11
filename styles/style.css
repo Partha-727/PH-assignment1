@@ -62,7 +62,8 @@ header{
     width: 174px;
     align-items: center;
 }
-       /* main styles */
+ /* main styles */
+ /* action styles */
 .action{
     display: flex;
     justify-content: space-between;
@@ -90,4 +91,37 @@ header{
      border: none;
      border-radius: 48px;
 }
- 
+/* productive-users styles */
+.productive-active-user{
+    align-items: center;
+    width: 89vw;
+    background-color: #4d47ff18;
+    border: none;
+    border-radius: 48px;
+    margin:116px auto;
+}
+data-with-subtitle{
+    justify-content:space-evenly;
+}
+.user-title{
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    padding-top:50px;
+}
+.data-with-subtitle{
+    display: flex;
+    justify-content: space-around;
+}
+.data{
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.sub-title{
+    font-weight: 400px;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
