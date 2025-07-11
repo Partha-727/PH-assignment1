@@ -19,6 +19,27 @@ font-weight: 700;
     height: 48px;
     width: 132px;
     color: #FFFFFF;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button :after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover  {
+  padding-right: 25px;
+}
+button:hover{
+    cursor: pointer;
+     opacity: 1;
+     right: 0;
 }
 .black{
     color: #252432;
@@ -28,19 +49,27 @@ font-weight: 700;
 }
 /* header styles */
 /* navigation styles */
+
 header{
+    
     background-image: url('/styles/Assets/Hero-bg.png');
+    padding: 10px;
+    height: 100vh;
+
 }
-.navbar nav{
+
+.navbar nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     width: 89vw;
 }
-.navbar nav h3{
+.navbar nav a{
     font-weight: 900;
+    color: #4E47FF;
     font-size: 34px;
+    text-decoration: none;
 }
 .navbar nav button{
     height: 48px;
@@ -51,8 +80,8 @@ header{
     text-align: center;
     height: 33%;
     width: 77vw;
-    margin: 150px auto;
-    padding-bottom: 150px;
+    margin: 80px auto;
+    padding-bottom: 30px;
 }
 .banner-heading {
     font-weight: 700;
@@ -73,6 +102,8 @@ header{
     margin: 0 auto;
     width: 89vw;
     gap: auto;
+    align-items: center;
+    padding-top: 80px;
 }
 .left{
     width: 45%;
@@ -182,6 +213,8 @@ height: 70%;
     text-align: center;
     border: 1px;
     border-radius: 48px;
+    padding-bottom: 30px;
+    padding-top: 71px;
 }
 .focus-image img{
     border-radius: 48px;
@@ -208,6 +241,8 @@ height: 70%;
     padding: auto;
     border-radius: 48px;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 71px;
 }
 .text{
      width: 50%;
@@ -229,7 +264,8 @@ height: 70%;
     background-color:#ffffff87 ;
     border: 1px solid #25243211;
     border-radius: 10px;
-     padding-left: 10px;
+    padding-left: 10px;
+    width: 100%;
 }
 .form textarea{
     height: 135px;
@@ -238,10 +274,38 @@ height: 70%;
     border-radius: 10px;
     padding-left: 10px;
     padding-top: 15px;
+    width: 100%;
 }
 .form button{
     width: 100%;
     font-weight: 700;
     font-size: 16px;
 }
-
+/* footer styles */
+footer div{
+    text-align: center;
+    width: 37vw;
+    margin: 0 auto;
+    padding-top: 104px;
+    padding-bottom: 103px;
+}
+footer div p{
+    width: 100%;
+}
+footer ul li a{
+    margin-right: 10%;
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+    gap: 10px;
+}
+nav li a, p{
+    text-decoration: none;
+    color: #8987A1;
+}
+footer .name{
+    font-weight: 900;
+    font-size: 100px;
+    text-decoration: none;
+}
