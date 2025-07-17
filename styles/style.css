@@ -52,7 +52,7 @@ button:hover{
 
 header{
     
-    background-image: url('/styles/Assets/Hero-bg.png');
+    background-image: url('./styles/Assets/Hero-bg.png');
     padding: 10px;
     height: 100vh;
 
