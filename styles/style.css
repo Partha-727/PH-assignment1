@@ -54,7 +54,7 @@ header{
     
     background-image: url('./Assets/Hero-bg.png');
     padding: 10px;
-    height: 100vh;
+
 
 }
 
@@ -309,6 +309,7 @@ footer .name{
     font-size: 100px;
     text-decoration: none;
 }
+/* small device */
 @media screen and (max-width:576px) {
     .action{
         flex-direction: column;
@@ -346,6 +347,33 @@ footer .name{
         
         justify-content: center;
         font-size: 5rem;
+    }
+    footer p{
+        text-align: center;
+        margin: 10px auto;
+    }
+    nav ul li{ 
+        display: block;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    nav li a{
+        margin-bottom: 50px;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .action{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .action .left{
+        text-align: center;
+    }
+    .data-with-subtitle{
+        flex-direction: column;
+        align-items: center;
     }
     footer p{
         text-align: center;
