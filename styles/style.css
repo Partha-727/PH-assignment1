@@ -52,7 +52,7 @@ button:hover{
 
 header{
     
-    background-image: url('./styles/Assets/Hero-bg.png');
+    background-image: url('./Assets/Hero-bg.png');
     padding: 10px;
     height: 100vh;
 
@@ -308,4 +308,55 @@ footer .name{
     font-weight: 900;
     font-size: 100px;
     text-decoration: none;
+}
+@media screen and (max-width:576px) {
+    .action{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .data-with-subtitle .data{
+        font-size: 5rem;
+    }
+    .data-with-subtitle .sub-title{
+        font-size: 1.25rem;
+    }
+    .data-with-subtitle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact .text{
+        text-align: center;
+
+    }
+    .contact .form{
+        width: 90vw;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .card1, .card2, .card3{
+        width: 90vw;
+        justify-content: center;
+    }
+    footer div .name {
+        
+        justify-content: center;
+        font-size: 5rem;
+    }
+    footer p{
+        text-align: center;
+        margin: 10px auto;
+    }
+    nav ul li{ 
+        display: block;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    nav li a{
+        margin-bottom: 50px;
+    }
 }
